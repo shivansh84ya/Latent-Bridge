@@ -4,6 +4,7 @@ function CommentItem({ comment }) {
   return (
     <li>
       <strong>{comment.email}</strong>: {comment.body}
+      
     </li>
   );
 }
